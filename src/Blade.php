@@ -1,4 +1,6 @@
-<?php namespace Philo\Blade;
+<?php 
+
+namespace Buki\Blade;
 
 use Illuminate\Container\Container;
 use Illuminate\Events\Dispatcher;
@@ -42,8 +44,8 @@ class Blade {
 	 * @param string $cachePath
 	 * @param Illuminate\Events\Dispatcher $events
 	 */
-	function __construct($viewPaths = array(), $cachePath, Dispatcher $events = null) {
-
+	function __construct($viewPaths = array(), $cachePath, Dispatcher $events = null)
+	{
 		$this->container = new Container;
 
 		$this->viewPaths = (array) $viewPaths;

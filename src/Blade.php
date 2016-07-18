@@ -1,6 +1,6 @@
 <?php 
 
-namespace Buki\Blade;
+namespace Philo\Blade;
 
 use Illuminate\Container\Container;
 use Illuminate\Events\Dispatcher;
